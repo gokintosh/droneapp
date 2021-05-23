@@ -32,16 +32,18 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav m-auto font-rubik">
-                        <li class="nav-item">
-                            <a class="nav-link" href="aboutus.php">About Us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="client.php">Form</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="send.php">Send Package</a>
-                        </li>
-                        </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.php">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="aboutus.php">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="client.php">Form</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="parcel.php">Parcel</a>
+                    </li>
 
 
 
@@ -112,10 +114,11 @@
                 </form>
                 
             </div>
-            <div class="picture">
+            
+        </div>
+        <div class="picture">
                 <img src="./assets/thumbsup.jpg" style= "object-fit:cover; width:50%; height:50%;"/>
             </div>
-        </div>
 
     <!--start footer -->
     <footer id="footer" class="bg-dark text-white py-1">
