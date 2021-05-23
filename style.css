@@ -1,0 +1,343 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&family=Raleway&family=Rubik&family=Orbitron&display=swap");
+button, button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+.banner-image {
+  max-width: 1920px;
+  max-height: 635px;
+  width: auto;
+  height: auto;
+}
+
+.font-baloo {
+  font-family: "Baloo Thampi 2", cursive;
+}
+
+.font-rale {
+  font-family: "Raleway", cursive;
+}
+
+.font-rubik {
+  font-family: "Rubik", cursive;
+}
+
+.font-orbitron {
+  font-family: "Orbitron", sans-serif;
+}
+
+.font-size-12 {
+  font-size: 12px;
+}
+
+.font-size-14 {
+  font-size: 14px;
+}
+
+.font-size-16 {
+  font-size: 16px;
+}
+
+.font-size-20 {
+  font-size: 20px;
+}
+
+.color-primary {
+  color: #003859;
+}
+
+.color-primary-bg {
+  background: #003859;
+}
+
+.color-second {
+  background: #00A5C4;
+}
+
+.color-second-bg {
+  background: #00A5C4;
+}
+
+.color-yellow {
+  color: FFD289;
+}
+
+.color-yellow-bg {
+  background: FFD289;
+}
+
+#top-sale .owl-carousel .item.product a {
+  overflow: hidden;
+}
+#top-sale .owl-carousel .item .product img {
+  transition: transform 0.5s ease;
+}
+#top-sale .owl-carousel .item .product img:hover {
+  transform: scale(1.1);
+}
+#top-sale .owl-carousel .owl-nav button {
+  position: absolute;
+  top: 30%;
+  outline: none;
+}
+#top-sale .owl-carousel .owl-nav button.owl-prev {
+  left: 0;
+  font-size: 35px;
+  color: #003859;
+  margin-left: -4rem;
+  padding: 0 1rem;
+}
+#top-sale .owl-carousel .owl-nav button.owl-next {
+  right: 0;
+  font-size: 35px;
+  color: #003859;
+  margin-right: -4rem;
+  padding: 0 1rem;
+}
+
+/*# sourceMappingURL=style.css.map */
+
+/*about us css*/
+
+.body {
+    background-image: url('./assets/phone_delivery_drone.png');
+    height:100%;
+    width:100%;
+}
+.wrapper {
+    height: 85vh;
+    width: auto;
+    padding: 25px;
+    background-image: url('./assets/phone_delivery_drone.png');
+    background-size: 100% 100%;
+    
+}
+.headline {
+    font-family: "Raleway", cursive;
+    font-size: 7vw;
+    padding: 10px;
+    width:auto;
+    height:auto;
+}
+.description{
+    width: 50vh;
+    padding: 10px;
+    font-size: 20px;
+}
+
+
+/*form css*/
+.container-form {
+    width: auto;
+    height: 60vh;
+    text-align: center;
+    padding: 10px;
+    margin:20px;
+}
+
+.form-description{
+    height: auto;
+    width: auto;
+    margin: 20px;
+    padding:10px;
+    text-align:center;
+
+}
+
+.input{
+    float:left;
+    width: calc(100%-200px);
+}
+
+.form {
+    height: auto;
+    width: auto;
+    margin: 20px;
+    padding: 20px;
+    float: left;
+    border-radius: 25px;
+    background: #00A5C4;
+    color:white;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+.form-style-1 label{
+    text-align: center;
+    display:block;
+    padding: 0.5em 1.5em 0.5em 0;
+}
+
+.form-style-1 input{
+    border:2px solid #000000;
+    margin-top: 5px;
+
+}
+
+.picture{
+    overflow:hidden;
+}
+
+
+/*Sender form*/
+
+.send-container{
+    height:auto;
+    width:100%;
+    margin-top: 20px;
+    padding:50px;
+    overflow:hidden;
+
+}
+
+.sender-form {
+    height: auto;
+    width: 40%;
+    border-radius: 25px;
+    background: #00A5C4;
+    color: white;
+    margin:50px;
+    text-align:center;
+    padding:50px;
+    float:left;
+
+}
+.sender-form label {
+    text-align: center;
+    display: block;
+    padding-top:20px;
+}
+.sender-form input {
+    border: 2px solid #000000;
+    margin-top: 5px;
+}
+
+.sender-form-2 {
+    height: auto;
+    width: 40%;
+    border-radius: 25px;
+    background: #808080;
+    color: white;
+    margin: 50px;
+    text-align: center;
+    padding: 50px;
+    overflow:hidden;
+}
+.sender-form-2 label {
+    text-align: center;
+    display: block;
+    padding-top: 20px;
+}
+
+.sender-form-2 input {
+    border: 2px solid #000000;
+    margin-top: 5px;
+}
+
+
+/*footer*/
+.contactinfo {
+    margin-left: 10%;
+}
+
+.subpages {
+    margin-left: 10%;
+    margin-top: 10%;
+    color: white;
+}
+
+.linksubpages {
+    color: #808080;
+}
+
+a.linksubpages:hover {
+    color: whitesmoke;
+}
+
+.pictalign {
+    margin-left: 10%;
+    margin-top: 10%;
+    width: 70%;
+    height: auto;
+}
+
+.adresslist {
+    list-style-type: none;
+}
+
+.topmargin {
+    margin-top: 1%;
+}
+
+
+
+/*popup*/
+.popup.overlay{
+    position:fixed;
+    top:0px;
+    left:0px;
+    width:100vw;
+    height:100vh;
+    background: rgba(0,0,0,0.7);
+    z-index:1;
+    display:none;
+}
+
+.popup .content {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) scale(0);
+    background: #fff;
+    width: 450px;
+    height: 420px;
+    z-index: 2;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10%;
+    color: #003859;
+    padding: 30px;
+    box-shadow: 0 30px 60px 0 rgba(0,0,0,0.8);
+    text-align: center;
+    margin: 15px;
+    font-family: "Orbitron", cursive;
+}
+
+.popup .close-btn {
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 30px;
+    height: 30px;
+    background: #222;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.popup.active .overlay{
+    display:block;
+}
+
+.popup.active .content{
+    transition:all 300ms ease-in-out;
+    transform:translate(-50%,-50%) scale(1);
+}
+
+
+button:hover {
+    background-color:#ff6a00;
+    color: white;
+
+}
+
