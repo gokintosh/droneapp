@@ -42,8 +42,9 @@
                         <a class="nav-link" href="client.php">Form</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="parcel.php">Parcel</a>
+                        <a class="nav-link" href="send.php">Parcel</a>
                     </li>
+
 
 
 

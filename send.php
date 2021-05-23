@@ -50,18 +50,16 @@
                     <li class="nav-item">
                         <a class="nav-link" href="index.php">Home</a>
                     </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="aboutus.php">About Us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="client.php">Form</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="send.php">Send Package</a>
-                        </li>
-                        <li class="nav-item">
-                        <a class="nav-link" href="parcel.php">Parcel</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="aboutus.php">About Us</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="client.php">Form</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="send.php">Parcel</a>
+                    </li>
+
 
 
 
