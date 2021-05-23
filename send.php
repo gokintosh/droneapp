@@ -85,7 +85,7 @@
                 <!-- form-->
                 <div class="sender-form" style="width:700px; margin-right:100px; margin: left 400px; border:1px solid #000;">
                 
-                    <p>Insert sender information</p>
+                    <p>Insert parcel information and we will allocate you the drone!! </p>
 
 
                     <form>
